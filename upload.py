@@ -16,9 +16,9 @@ TOKEN = os.getenv("TOKEN")
 
 app = Client(
     "my_account",
-    api_id=YOUR_ID,
-    api_hash=YOUR_HASH,
-    bot_token=TOKEN
+    api_id=1304050,
+    api_hash=cb772803bc9c8407ab1d79a5a317039c,
+    bot_token=1305516568:AAGAanKQMxb863v0BuSlQRbgrB3oYPGpXXM
 )
 
 @app.on_message(Filters.command(["start", "help"]) & Filters.private)
