@@ -30,8 +30,8 @@ This Bot Can Upload Files on anonfiles.com of Size Upto 1.5GB In Free. I Only Wo
 
 ♨️ Just Send The File (as Document) You Wanna Upload and Leave The Rest On Bot :-) '''
 
-    keyboard = [[InlineKeyboardButton(text="🔥Support🔥", url="https://t.me/Technology_Arena"),
-               InlineKeyboardButton(text="♻️Donate♻️", url="https://t.me/TheDarkW3b")]]
+    keyboard = [[InlineKeyboardButton(text="🔥Support🔥", url="https://t.me/tnmaza_support"),
+               InlineKeyboardButton(text="♻️Donate♻️", url="https://t.me/tnvip_bot")]]
     app.send_message(chat_id, START, reply_markup=InlineKeyboardMarkup(keyboard), parse_mode="html")
 
 @app.on_message(Filters.document & Filters.private)
@@ -87,10 +87,10 @@ Full Link :- {full_link}'''
 
         
         app.send_message(chat_id, anon_file_links)
-        app.send_message(-1001262714875, darkweb)
-        app.send_message(chat_id, "❣️ @Dark_Hacker_X")
+        app.send_message(-1001342800873, tnrockers)
+        app.send_message(chat_id, "❣️ @tnvip_bot")
     except:
-        app.send_message(chat_id, "Unexpected Error \nContact at @Technology_Arena ❣️")
+        app.send_message(chat_id, "Unexpected Error \nContact at @tnmaza_support ❣️")
         try:
             os.remove(file_name)
         except:
