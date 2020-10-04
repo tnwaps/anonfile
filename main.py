@@ -28,8 +28,8 @@ For Now Currently Limit Is 20MB, Its Gonna Increased Upto 1.5GB In Future
 
 ♨️ Just Send The File You Wanna Upload and Leave The Rest On Bot :-) '''
 
-  keyboard = [[InlineKeyboardButton(text="🔥Support🔥", url="https://t.me/Technology_Arena"),
-               InlineKeyboardButton(text="♻️Donate♻️", url="https://t.me/TheDarkW3b")]]
+  keyboard = [[InlineKeyboardButton(text="🔥Support🔥", url="https://t.me/tnmaza_support"),
+               InlineKeyboardButton(text="♻️Donate♻️", url="https://t.me/tnvip_bot")]]
   
   if update.effective_message.chat.type != "private":
     update.message.reply_text("Use Me In Private :-)")
