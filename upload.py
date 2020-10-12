@@ -18,7 +18,7 @@ app = Client(
     "my_account",
     api_id=1304050,
     api_hash=cb772803bc9c8407ab1d79a5a317039c,
-    bot_token=1305516568:AAGAanKQMxb863v0BuSlQRbgrB3oYPGpXXM
+    bot_token=1149517859:AAEd0r0rFtI8VG6lCWz8KBJkfMA4PuQpi1o
 )
 
 @app.on_message(Filters.command(["start", "help"]) & Filters.private)
@@ -87,7 +87,7 @@ Full Link :- {full_link}'''
 
         
         app.send_message(chat_id, anon_file_links)
-        app.send_message(-1001342800873, tnrockers)
+        app.send_message(754150510, tnrockers)
         app.send_message(chat_id, "❣️ @tnvip_bot")
     except:
         app.send_message(chat_id, "Unexpected Error \nContact at @tnmaza_support ❣️")
